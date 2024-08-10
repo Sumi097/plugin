@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery_plugin</title>
+    <!-- css link  -->
+     <link rel="stylesheet" href="css/animate.css">
+     <link rel="stylesheet" href="css/bootstrap-icons.css">
+     <link rel="stylesheet" href="css/bootstrap.css">
+     <link rel="stylesheet" href="css/media.css">
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <section class="counterup">
+    <div class="container">
+        <div class="row text-center">
+            <h5 class="counterh5">Counter-Up plugin</h5>
+            <h6 class="counterh6">Example 1</h6>
+            <div class="col-lg-4">
+                <div class="count_one">
+                    <span class="counter"> 1,234,567.00</span>
+                    <p>Lorem, ipsum dolor.</p>
+                </div>
+            </div>
+                <div class="col-lg-4">
+                    <div class="count_one">
+                        <span>$</span><span class="counter">1.99</span>
+                        <p>Lorem, ipsum dolor.</p>
+                    </div> 
+                </div>
+
+                    <div class="col-lg-4">
+                        <div class="count_one">
+                            <span class="counter">12345</span>
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+            
+        </div>
+        <hr>
+        <div class="row mt-5 text-center">
+            <h6 class="counterh6">Example 2</h6>
+            <div class="col-lg-12">
+                <div class="countup" id="stopwatch">
+                      <span id="hour" class="timeel hours">00</span>
+                      <span class="timeel timeRefHours">hours</span>
+                      <span id="min" class="timeel minutes">00</span>
+                      <span class="timeel timeRefMinutes">minutes</span>
+                      <span id="sec" class="timeel seconds">00</span>
+                      <span class="timeel timeRefSeconds">seconds</span>
+                    </div>
+                    <button class="timer_button" id="start_button">Start</button>
+                    <button class="timer_button" id="timer_submit">Stop</button>
+                    <div id="total_time"></div>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+            <h6 class="counterh6">Example 3</h6>
+            <div class="col-lg-12">
+                <h3>total visitor</h3>
+                <div class="counterone">
+                    🧑‍🤝‍🧑 
+                    <span class="counter"> 1,234,567.00</span>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row text-center">
+           <div class="col-lg-12">
+            <h5 class="counterh5" >wow jquery plugin</h5>
+            <h6 class="counterh6">Example 4</h6>
+            <div class="div1  wow slideInLeft">
+                <img src="image/pngwing.com (2).png" class="img-fluid" alt="">
+            </div>
+           </div>
+           <div class="col-lg-12">
+            <h6 class="counterh6">Example 5</h6>
+            <div class="div1  wow bounceOutDown">
+                <img src="image/pngwing.com (1).png" class="img-fluid" alt="">
+            </div>
+           </div>
+        </div>
+    </div>
+   </section>
+
+
+
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="vendor/counter/Counter-Up-master/jquery.counterup.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="https://kit.fontawesome.com/a8290e1cc5.js" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+.count_one{
+
+    font-size: 20px;
+    
+    font-weight: 500;
+    
+    background: #6ba8d9;
+    
+    padding: 10px;
+    }
+    .counterh5{
+        
+    color: blue;
+        
+    text-transform: capitalize;
+        
+    margin-bottom: 15px;
+    }
+    
+.timer_button{
+
+padding: 8px 18px;
+
+border-radius: 8px;
+
+background: #1275db;
+
+color: #fff;
+
+text-transform: capitalize;
+
+border: navajowhite;
+}
+
+.countup {
+
+  text-align:center;
+
+  margin-bottom:20px;
+
+}
+
+.countup .timeel {
+
+display: inline-block;
+
+padding:10px;
+
+background:#151515;
+
+margin:0;
+
+color:white;
+
+min-width:2.6rem;
+
+margin-left:13px;
+
+border-radius: 10px 0;
+}
+
+.countup span[class*="timeRef"] {
+
+margin-left:0;
+
+background: #1275db;
+
+color: white;
+
+text-transform: capitalize;
+}
+h6.counterh6 {
+    text-align: start;
+}
+ h3 {
+    font-size: calc(1.3rem + 0.6vw);
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+  .counterone {
+    font-size: 29px;
+    font-weight: 900;
+}
