@@ -129,6 +129,73 @@ window.addEventListener('load', function () {
         cycle = setTimeout(timerCycle, 1000);
     }
 
-   
-
 })
+// slick example 
+$(document).ready(function(){
+    $('.demo').slick(
+        {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                  breakpoint: 1024,
+                  settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true,
+                    arrows: false
+                  }
+                },
+                {
+                  breakpoint: 600,
+                  settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                     arrows: false,
+                  }
+                },
+                {
+                  breakpoint: 480,
+                  settings: {
+                    slidesToShow: 1,
+                    arrows: false,
+                    slidesToScroll: 1
+                  }
+                }
+            ]
+
+        }
+    );
+   
+})
+ // preloader start
+$(function () {
+   
+    $(window).load(function () {
+      $("#loading").fadeOut(600);
+    });
+
+  });
+      // preloader end
+    //   mixitup start 
+    $(document).ready(function(){
+        var mixer = mixitup('#hello', {
+          
+            animation: {
+                duration: 300
+            }
+        });
+
+
+
+        var mixer = mixitup("#filter2", {
+            selectors: {
+                target: '.blog-item'
+            },
+            animation: {
+                duration: 300
+            }
+        });
+        
+    })
