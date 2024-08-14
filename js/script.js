@@ -190,9 +190,16 @@ $(function () {
 
 
         var mixer = mixitup("#filter2", {
-            selectors: {
-                target: '.blog-item'
-            },
+           
+            animation: {
+                duration: 300
+            }
+        });
+        
+    })
+    $(document).ready(function(){
+        var mixer = mixitup("#filter2", {
+           
             animation: {
                 duration: 300
             }
