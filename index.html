@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jquery_plugin</title>
     <!-- css link  -->
-     <link rel="stylesheet" href="css/slick.css">
-     <link rel="stylesheet" href="css/slick-theme.css">
+     <link rel="stylesheet" href="vendor/lightbox/lightbox2-dev/dist/css/lightbox.min.css">
+     <link rel="stylesheet" href="vendor/slick/slick.css">
+     <link rel="stylesheet" href="vendor/slick/slick-theme.css">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
      <link rel="stylesheet" href="css/animate.css">
      <link rel="stylesheet" href="css/bootstrap-icons.css">
      <link rel="stylesheet" href="css/bootstrap.css">
@@ -126,15 +130,32 @@
                 </div>
             </div>
         </div>
-      
+        <div class="row">
+            
+            <h5 class="counterh5">owl-carousel </h5>
+            <h6 class="counterh6">Example 7</h6>
+     <div class="owl-carousel section_carousel">
+        <div class=" owl_pic">
+            <img src="image/maple_2_0.jpg" class="img-fluid" alt="">
+
+        </div>
+        <div class=" owl_pic">
+            <img src="image/Sanford2016.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="owl_pic">
+            <img src="image/gopher_1_2016.jpg" class="img-fluid" alt="">
+        </div>
+          
+          </div>
+     </div>
      <div class="row">
         <h5 class="counterh5">preloader </h5>
-        <h6 class="counterh6">Example 7</h6>
+        <h6 class="counterh6">Example 8</h6>
      </div>
        <!-- mixitup start  -->
      <div class="row mt-3">
         <h5 class="counterh5">mixit up/filter 1</h5>
-        <h6 class="counterh6">Example 8</h6>
+        <h6 class="counterh6">Example 9</h6>
         <div class="col-lg-12">
             <div class="course text-center">
                 <button type="button"  data-filter="all"        class="btn btn-primary" >all courses</button>
@@ -195,7 +216,7 @@
     <div class="container">
         <div class="row">
             <h5 class="counterh5">mixit up/filter 2</h5>
-            <h6 class="counterh6">Example 9</h6>
+            <h6 class="counterh6">Example 10</h6>
             <div class="col-lg-12">
                 <div class="course text-center">
                     <button type="button"   data-filter="all"            class="btn btn-primary" >all image</button>
@@ -235,7 +256,84 @@
                     </div>
                 </div>
                
+         </div>
+         <div class="row">
+            <h5 class="counterh5">isotope</h5>
+            <h6 class="counterh6">Example 11</h6>
+            <div class="col-lg-12">
+                                <div class="button-group filters-button-group">
+                <button class="button is-checked" data-filter="*">show all</button>
+              
+                <button class="button" data-filter=".transition">transition</button>
+                </div>
+
+                <div class="grid">
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Mercury</h3>
+                    <p class="symbol">Hg</p>
+                    <p class="number">80</p>
+                    <p class="weight">200.59</p>
+                </div>
+                <div class="element-item metalloid " data-category="metalloid">
+                    <h3 class="name">Tellurium</h3>
+                    <p class="symbol">Te</p>
+                    <p class="number">52</p>
+                    <p class="weight">127.6</p>
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                    <h3 class="name">Bismuth</h3>
+                    <p class="symbol">Bi</p>
+                    <p class="number">83</p>
+                    <p class="weight">208.980</p>
+                </div>
+                <div class="element-item post-transition metal " data-category="post-transition">
+                    <h3 class="name">Lead</h3>
+                    <p class="symbol">Pb</p>
+                    <p class="number">82</p>
+                    <p class="weight">207.2</p>
+                </div>
+                <div class="element-item transition metal " data-category="transition">
+                    <h3 class="name">Gold</h3>
+                    <p class="symbol">Au</p>
+                    <p class="number">79</p>
+                    <p class="weight">196.967</p>
+                </div>
+              
+                <div class="element-item lanthanoid metal inner-transition " data-category="lanthanoid">
+                    <h3 class="name">Ytterbium</h3>
+                    <p class="symbol">Yb</p>
+                    <p class="number">70</p>
+                    <p class="weight">173.054</p>
+                </div>
+                <div class="element-item noble-gas nonmetal " data-category="noble-gas">
+                    <h3 class="name">Argon</h3>
+                    <p class="symbol">Ar</p>
+                    <p class="number">18</p>
+                    <p class="weight">39.948</p>
+                </div>
+                <div class="element-item diatomic nonmetal " data-category="diatomic">
+                    <h3 class="name">Nitrogen</h3>
+                    <p class="symbol">N</p>
+                    <p class="number">7</p>
+                    <p class="weight">14.007</p>
+                </div>
+                <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+                    <h3 class="name">Uranium</h3>
+                    <p class="symbol">U</p>
+                    <p class="number">92</p>
+                    <p class="weight">238.029</p>
+                </div>
+                <div class="element-item actinoid metal inner-transition " data-category="actinoid">
+                    <h3 class="name">Plutonium</h3>
+                    <p class="symbol">Pu</p>
+                    <p class="number">94</p>
+                    <p class="weight">(244)</p>
+                </div>
+</div>
+
+
             </div>
+         </div>
     </div>
    </section>
  <!-- preloader start -->
@@ -249,7 +347,72 @@
         </div>
    </div>
  <!-- preloader end  -->
-  
+  <section class="lightbox_one"> 
+    <div class="container">
+        <div class="row">
+            <h5 class="counterh5">lightbox</h5>
+            <h6 class="counterh6">Example 12</h6>
+            <div class="col-lg-2">
+                <div class="light_image">
+                   <a href="image/pexels-pixabay-36744.jpg" class="w-100" data-lightbox="image-1" data-title="My caption">
+                    <img src="image/pexels-pixabay-36744.jpg" class="img-fluid" alt="">
+                   </a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="light_image">
+                   <a href="image/pexels-nout-gons-80280-248159.jpg" class="w-100" data-lightbox="image-1" data-title="My caption">
+                    <img src="image/pexels-nout-gons-80280-248159.jpg" class="img-fluid" alt="">
+                   </a>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="light_image">
+                   <a href="image/09-sept.jpg" class="w-100" data-lightbox="image-1" data-title="My caption">
+                    <img src="image/09-sept.jpg" class="img-fluid" alt="">
+                   </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-between mt-3">
+            <h5 class="counterh5">aos plugin</h5>
+            <h6 class="counterh6">Example 13</h6>
+            <div class="col-lg-5">
+                <div class="aos_plugin" data-aos="flip-left" data-aos-duration="4000">
+                    <img src="image/image1.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="aos_plugin" data-aos="flip-left" data-aos-duration="4000">
+                    <img src="image/image4.jpg" class="img-fluid" alt="">
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+  </section>
+  <section class="parallax_one">
+    <div class="container">
+      <div class="row">
+        <h5 class="counterh5">parallax</h5>
+        <h6 class="counterh6">Example 14</h6>
+        <div class="col-lg-12">
+            <div class="parallax-window" data-parallax="scroll" data-image-src="image/pexels-nout-gons-80280-248159.jpg"></div>
+            <div class="parallax-window" data-parallax="scroll" data-image-src="image/pexels-sebastian-189349.jpg"></div>
+            <div class="parallax-window" data-parallax="scroll" data-image-src="image/pexels-nout-gons-80280-248159.jpg"></div>
+        </div>
+      </div>
+      <div class="row">
+        <h5 class="counterh5">curvedtext</h5>
+        <h6 class="counterh6">Example 15</h6>
+        <div class="col-lg-12">
+            <div id="text1"> Hm, looks like the wonderful arctext plugin. </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+ 
 
 
 
@@ -257,14 +420,40 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/waypoints.min.js"></script>
     <script src="vendor/counter/Counter-Up-master/jquery.counterup.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="vendor/slick/slick.min.js"></script>
     <script src="js/wow.min.js"></script>
-    <script src="vendor/mixitup-3/mixitup-3/mixitup.min.js"></script>
+    <script src="vendor/mixitup/mixitup-3/mixitup.min.js"></script>
+    <script src="vendor/lightbox/lightbox2-dev/dist/js/lightbox.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="vendor/isotope-docs_2/isotope-docs/isotope.pkgd.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="vendor/parallax.js-master/parallax.js-master/parallax.js"></script>
+    <script src="vendor/curved text/jQuery-Plugin-For-Creating-Curved-Text-CurvedText/javascript/jquery.typorize.js"></script>
+    <script src="vendor/curved text/jQuery-Plugin-For-Creating-Curved-Text-CurvedText/javascript/jquery.curvedtext.js"></script>
     <script src="https://kit.fontawesome.com/a8290e1cc5.js" crossorigin="anonymous"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script>
+        $(document).ready(function(){
+            $(".section_carousel").owlCarousel(
+              {
+                items:3,
+                loop:true,
+                nav:true,
+                autoplayTimeout:4000,
+                autoplay:true,
+                smartSpeed:1000,
+              }
+            );
+          });
         new WOW().init();
     </script>
+
+    <script>
+      AOS.init();
+    </script>
+    
+  
 </body>
 </html>
